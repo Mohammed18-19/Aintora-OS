@@ -1,0 +1,23 @@
+{
+  "greeting": "Mrhba bik! 👋 Hna f {business_name}. Ash nqder n3awnek?",
+  "booking_menu": "Ikhtir lkhidma lli bghi:\n{services_list}\n\nSift raqm lli bghi.",
+  "ask_date": "Mzyan! 📅 Wach nhar bghi? (m: ghda, ljm3a, 15/06)",
+  "ask_time": "Waqtash bghi? (m: 10:00, 14:00)",
+  "confirm_booking": "✅ A3tiq l'haja:\n\n📋 Khidma: {service}\n📅 Nhar: {date}\n⏰ Waqt: {time}\n\nSift *IYA* bach t'akad aw *LLA* bach tlgh.",
+  "booking_confirmed": "🎉 L'réservation dyalik mt'akkda!\n\n📋 {service}\n📅 {date} f {time}\n🔖 Référence: {booking_ref}\n\nNtshafo qriban! 😊",
+  "booking_pending": "⏳ Tlb dyalek wsel!\n\nRéf: {booking_ref}\nGhadi n'akkdulk mn b3d chwiya.",
+  "booking_rejected": "😔 Smhli, ma qdrna n'akkdu tlb {date} f {time}. 3awed jrb waqt akhor.",
+  "booking_cancelled": "Réservation {booking_ref} tlghaat.",
+  "slot_unavailable": "⚠️ Smhli, had lwaqt mashi khawi. L'mwa3id li kaynin:\n{available_slots}\n\nIkhtir wahed.",
+  "outside_hours": "⏰ Smhli, m3mshin daba. Mwa3id lkhidma dyalna:\n{business_hours}",
+  "owner_new_booking": "🔔 Tlb réservation jdid!\n\n👤 Client: {customer_name} ({customer_number})\n📋 Khidma: {service}\n📅 {date} f {time}\n\nIdara: {dashboard_url}",
+  "error_not_understood": "Smhli, ma fhmt ach glt. 😕\n\nSift *MOSA3DA* bach tshof l'options aw *RÉSERVA* bach dir réservation jdida.",
+  "help_message": "Ash nqder n3awnek:\n\n📅 *RÉSERVA* - Dir réservation jdida\n📋 *STATUT* - Shuf réservation dyalek\n❌ *LGHA* - Lghi réservation",
+  "closed_today": "🚫 M3mshin lyoum. Ghadi nftho: {next_open}.",
+  "language_set": "L'lgha tweddat l Darija! 🇲🇦",
+  "cancel_confirm": "Wach metakked bghitek tlghi {booking_ref}? Sift *IYA* bach tt'akad.",
+  "cancel_success": "✅ {booking_ref} tlghat.",
+  "reschedule_ask": "Imta bghi t3awd tjdwel? 3tini tarikh u waqt jdid.",
+  "invalid_date": "Ma fhmt had tarikh. 3awed jrb (m: ghda, ljm3a, 15/06).",
+  "invalid_time": "Ma fhmt had lwaqt. 3awed jrb (m: 10:00, 14:00)."
+}

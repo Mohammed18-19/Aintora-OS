@@ -1,0 +1,23 @@
+{
+  "greeting": "Hello! 👋 Welcome to {business_name}. How can I help you today?",
+  "booking_menu": "Please choose a service:\n{services_list}\n\nReply with the number of your choice.",
+  "ask_date": "Great choice! 📅 What date would you like? (e.g. tomorrow, Monday, 15/06)",
+  "ask_time": "What time would you prefer? (e.g. 10:00, 2pm, 14:00)",
+  "confirm_booking": "✅ Please confirm your booking:\n\n📋 Service: {service}\n📅 Date: {date}\n⏰ Time: {time}\n\nReply *YES* to confirm or *NO* to cancel.",
+  "booking_confirmed": "🎉 Your booking is confirmed!\n\n📋 {service}\n📅 {date} at {time}\n🔖 Ref: {booking_ref}\n\nSee you soon! 😊",
+  "booking_pending": "⏳ Your booking request has been received!\n\nRef: {booking_ref}\nWe will confirm it shortly.",
+  "booking_rejected": "😔 Sorry, your booking request for {date} at {time} was not confirmed. Please try a different time.",
+  "booking_cancelled": "Your booking {booking_ref} has been cancelled.",
+  "slot_unavailable": "⚠️ Sorry, that time slot is not available. Here are the next available slots:\n{available_slots}\n\nPlease choose one.",
+  "outside_hours": "⏰ Sorry, we are closed at that time. Our working hours are:\n{business_hours}",
+  "owner_new_booking": "🔔 New booking request!\n\n👤 Customer: {customer_name} ({customer_number})\n📋 Service: {service}\n📅 {date} at {time}\n\nManage: {dashboard_url}",
+  "error_not_understood": "I'm sorry, I didn't understand that. 😕\n\nType *HELP* to see available options or *BOOK* to make a new booking.",
+  "help_message": "Here's what I can do:\n\n📅 *BOOK* - Make a new booking\n📋 *STATUS* - Check your booking\n❌ *CANCEL* - Cancel a booking\n\nOr just type what you need!",
+  "closed_today": "🚫 We are closed today. Our next opening is {next_open}.",
+  "language_set": "Language set to English! 🇬🇧",
+  "cancel_confirm": "Are you sure you want to cancel booking {booking_ref}? Reply *YES* to confirm.",
+  "cancel_success": "✅ Booking {booking_ref} has been cancelled.",
+  "reschedule_ask": "When would you like to reschedule your booking? Please provide a new date and time.",
+  "invalid_date": "I couldn't understand that date. Please try again (e.g. tomorrow, Monday, 15/06).",
+  "invalid_time": "I couldn't understand that time. Please try again (e.g. 10:00, 2pm, 14:00)."
+}

@@ -1,0 +1,23 @@
+{
+  "greeting": "Bonjour! 👋 Bienvenue chez {business_name}. Comment puis-je vous aider?",
+  "booking_menu": "Veuillez choisir un service:\n{services_list}\n\nRépondez avec le numéro de votre choix.",
+  "ask_date": "Excellent choix! 📅 Quelle date vous convient? (ex: demain, lundi, 15/06)",
+  "ask_time": "À quelle heure préférez-vous? (ex: 10h00, 14h00)",
+  "confirm_booking": "✅ Veuillez confirmer votre réservation:\n\n📋 Service: {service}\n📅 Date: {date}\n⏰ Heure: {time}\n\nRépondez *OUI* pour confirmer ou *NON* pour annuler.",
+  "booking_confirmed": "🎉 Votre réservation est confirmée!\n\n📋 {service}\n📅 {date} à {time}\n🔖 Réf: {booking_ref}\n\nÀ bientôt! 😊",
+  "booking_pending": "⏳ Votre demande de réservation a été reçue!\n\nRéf: {booking_ref}\nNous la confirmerons sous peu.",
+  "booking_rejected": "😔 Désolé, votre demande pour le {date} à {time} n'a pas pu être confirmée. Veuillez choisir un autre horaire.",
+  "booking_cancelled": "Votre réservation {booking_ref} a été annulée.",
+  "slot_unavailable": "⚠️ Désolé, ce créneau n'est pas disponible. Voici les prochains créneaux disponibles:\n{available_slots}\n\nVeuillez choisir l'un d'eux.",
+  "outside_hours": "⏰ Désolé, nous sommes fermés à cette heure. Nos horaires sont:\n{business_hours}",
+  "owner_new_booking": "🔔 Nouvelle demande de réservation!\n\n👤 Client: {customer_name} ({customer_number})\n📋 Service: {service}\n📅 {date} à {time}\n\nGérer: {dashboard_url}",
+  "error_not_understood": "Je suis désolé, je n'ai pas compris. 😕\n\nTapez *AIDE* pour voir les options ou *RÉSERVER* pour une nouvelle réservation.",
+  "help_message": "Voici ce que je peux faire:\n\n📅 *RÉSERVER* - Faire une réservation\n📋 *STATUT* - Vérifier votre réservation\n❌ *ANNULER* - Annuler une réservation",
+  "closed_today": "🚫 Nous sommes fermés aujourd'hui. Prochaine ouverture: {next_open}.",
+  "language_set": "Langue définie sur le français! 🇫🇷",
+  "cancel_confirm": "Êtes-vous sûr de vouloir annuler la réservation {booking_ref}? Répondez *OUI* pour confirmer.",
+  "cancel_success": "✅ Réservation {booking_ref} annulée.",
+  "reschedule_ask": "Quand souhaitez-vous reprogrammer? Donnez une nouvelle date et heure.",
+  "invalid_date": "Je n'ai pas pu comprendre cette date. Réessayez (ex: demain, lundi, 15/06).",
+  "invalid_time": "Je n'ai pas pu comprendre cette heure. Réessayez (ex: 10h00, 14h00)."
+}
