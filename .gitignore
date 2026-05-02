@@ -37,3 +37,7 @@ postgres_data/
 # Logs
 *.log
 logs/
+.venv_backend/
+.venv/
+__pycache__/
+*.pyc
