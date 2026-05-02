@@ -8,6 +8,10 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
 def verify_password(plain: str, hashed: str) -> bool:
+    print("PLAIN:", plain)
+    print("HASH :", hashed)
+    print("TYPE HASH:", type(hashed))
+    
     return pwd_context.verify(plain, hashed)
 
 

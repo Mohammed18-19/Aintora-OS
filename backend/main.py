@@ -2,6 +2,7 @@
 AINTORA SYSTEMS — WhatsApp Booking SaaS
 FastAPI Application Entry Point
 """
+
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -35,7 +36,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# ─── Middleware ────────────────────────────────────────────────────────────────
+# ─── Middleware ────────────────────────────────────────────────
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.ALLOWED_ORIGINS,
@@ -44,15 +45,22 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ─── Routes ───────────────────────────────────────────────────────────────────
+# ─── Routes ────────────────────────────────────────────────────
 app.include_router(api_router)
 
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "app": settings.APP_NAME, "version": settings.APP_VERSION}
+    return {
+        "status": "ok",
+        "app": settings.APP_NAME,
+        "version": settings.APP_VERSION,
+    }
 
 
 @app.get("/")
 async def root():
-    return {"message": f"Welcome to {settings.APP_NAME} API", "docs": "/docs"}
+    return {
+        "message": f"Welcome to {settings.APP_NAME} API",
+        "docs": "/docs"
+    }
